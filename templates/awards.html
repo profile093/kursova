@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="background-image">
+        <h1 class="awards-list">Awards List</h1>
+        <a href="/" class="btn-pink">Home</a>
+        <div class="awards-list">
+            {% for award in awards %}
+                <p>{{ award.award_name }} - {{ award.year }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

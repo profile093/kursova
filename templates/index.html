@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>His of Maths Ukraine</h1>
+    <a href="/awards" class="btn-pink">View All Awards</a>
+    <a href="/country" class="btn-pink">View Awards by Country</a>
+    <a href="/university" class="btn-pink">View Awards by University</a>
+    <a href="/register" class="btn-purple">Register for Fields Medal 2026</a>
+    <form action="/search" method="get">
+        <input type="text" name="query" placeholder="Search...">
+        <button type="submit" class="btn-large-blue">Search</button>
+    </form>
+</body>
+</html>

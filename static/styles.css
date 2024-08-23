@@ -1,0 +1,167 @@
+body {
+    background-color: #f0f0f0; /* Фон страницы */
+    font-family: Arial, sans-serif;
+}
+
+.awards-list {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin: 20px;
+}
+
+.background-image {
+    background-image: url('/static/2.jpg'); /* Путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.background-image-countries {
+    background-image: url('/static/3.jpg'); /* Путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.background-image-universities {
+    background-image: url('/static/4.jpg'); /* Путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.btn-pink {
+    background-color: pink;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-purple {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-large-blue {
+    background-color: lightblue;
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.countries-list,
+.universities-list {
+    color: white;
+    font-size: 2em; /* Размер шрифта для списка */
+    text-align: center;
+    margin: 20px;
+}
+
+/* Новые стили для формы регистрации и описания Fields Medal */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.register-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.register-form .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.register-form label {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.register-form label i {
+    margin-right: 10px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+}
+
+.register-form button {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.fields-medal-description {
+    max-width: 600px;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.fields-medal-description img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.fields-medal-description p {
+    font-size: 1em;
+    color: black;
+    line-height: 1.5;
+}

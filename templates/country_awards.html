@@ -1,0 +1,7 @@
+<h2>Awards in {{ country }}</h2>
+<ul>
+    {% for award in awards %}
+    <li>{{ award.award_name }} - {{ award.year }} - {{ award.university }}</li>
+    {% endfor %}
+</ul>
+
